@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Jan 09 13:40:06 CET 2021
+1.base=C\:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=DEX
+0.path=classes.dex
+0.set=DEX
+0.base=C\:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out
+1.path=classes.dex
