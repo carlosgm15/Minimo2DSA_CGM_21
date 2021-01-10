@@ -7,6 +7,7 @@ import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.widget.ProgressBar;
 
 import com.squareup.picasso.Picasso;
 
@@ -24,6 +25,7 @@ public class InfoUserActivity extends AppCompatActivity {
     List<Follower> listDatos = new ArrayList<>(); //instancia lista
     RecyclerView recycler;
     RecyclerView.Adapter mAdapter;
+    private ProgressBar progressBar;
 
     TextView repos_text; //llamamos los elemntos.
     TextView following_text;
@@ -40,6 +42,9 @@ public class InfoUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.infouseractivity);
+
+        progressBar=(ProgressBar) findViewById(R.id.progressBar);
+        progressBar.setVisibility(ProgressBar.INVISIBLE);
 
         recycler = findViewById(R.id.my_recycler_view); //referencia del recycler
         recycler.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)); //como queremos los datos vertical, etc
@@ -63,6 +68,7 @@ public class InfoUserActivity extends AppCompatActivity {
         }
         tot=tit;
 
+        progressBar.setVisibility(ProgressBar.VISIBLE);
         Call<List<Follower>> call = api.followersInfo(tot); //
 
         call.enqueue(new Callback<List<Follower>>() { //el callback trae un onresponse de la info en caso de ir bien, y un onfailure en caso e no ecocntrar na
@@ -73,12 +79,14 @@ public class InfoUserActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),
                                     "No se ha encontrado al man", Toast.LENGTH_SHORT);
                     toast1.show();
+                    progressBar.setVisibility(ProgressBar.INVISIBLE);
                     return;
                 }
                 Toast toast1 =
                         Toast.makeText(getApplicationContext(),
                                 "oleole", Toast.LENGTH_SHORT);
                 toast1.show();
+                progressBar.setVisibility(ProgressBar.INVISIBLE);
                 listDatos = response.body(); //resspuesta del servidor parseada
                 mAdapter = new MyAdapter(listDatos, InfoUserActivity.this);
                 recycler.setAdapter(mAdapter);
@@ -88,13 +96,14 @@ public class InfoUserActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<List<Follower>> call, Throwable t) {
+                progressBar.setVisibility(ProgressBar.INVISIBLE);
             }
-            Toast toast1 =
-                    Toast.makeText(getApplicationContext(),
-                            "Toast onFailure", Toast.LENGTH_SHORT);
+            Toast toast1 = Toast.makeText(getApplicationContext(), "Toast onFailure", Toast.LENGTH_SHORT);
+
 
         });
 
+        progressBar.setVisibility(ProgressBar.VISIBLE);
         Call<User> call1 = api.userInfo(tot);
         call1.enqueue(new Callback<User>() {
             @Override
@@ -104,22 +113,26 @@ public class InfoUserActivity extends AppCompatActivity {
                             Toast.makeText(getApplicationContext(),
                                     "Datos del man", Toast.LENGTH_SHORT);
                     toast1.show();
+                    progressBar.setVisibility(ProgressBar.INVISIBLE);
                     return;
                 }
             User user = response.body();
             repos_text.setText(Integer.toString(user.getPublic_repos()));
             following_text.setText(Integer.toString(user.getFollowing()));
             Picasso.get().load(user.getAvatar_url()).into(image);
+                progressBar.setVisibility(ProgressBar.INVISIBLE);
 
 
             }
 
             @Override
             public void onFailure(Call<User> call1, Throwable t) {
+                progressBar.setVisibility(ProgressBar.INVISIBLE);
             }
             Toast toast1 =
                     Toast.makeText(getApplicationContext(),
                             "Toast onFailure", Toast.LENGTH_SHORT);
+
 
         });
 

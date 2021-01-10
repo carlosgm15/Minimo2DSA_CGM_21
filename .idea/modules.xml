@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minimo2DSA_CGM.iml" filepath="$PROJECT_DIR$/.idea/modules/Minimo2DSA_CGM.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Minimo2DSA_CGM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Minimo2DSA_CGM.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Minimo2DSA_CGM_21.iml" filepath="$PROJECT_DIR$/.idea/modules/Minimo2DSA_CGM_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Minimo2DSA_CGM_21.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Minimo2DSA_CGM_21.app.iml" />
     </modules>
   </component>
 </project>

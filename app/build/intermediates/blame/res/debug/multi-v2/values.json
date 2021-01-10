@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\Definitivo\\Minimo2DSA_CGM_21\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-1\\files-1.1\\transition-28.0.0.aar\\6821a40a15b3453cfae37f882eb40b6d\\res\\values\\values.xml",
@@ -18,42 +18,6 @@
                         "startOffsets": "28820,29150,29289,29336,29391,29985,30039,30091,30140,30201",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "28855,29188,29331,29386,29431,30034,30086,30135,30196,30246"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "57",
-                        "endLines": "8",
-                        "endColumns": "12",
-                        "endOffsets": "376"
-                    },
-                    "to": {
-                        "startLines": "612",
-                        "startColumns": "4",
-                        "startOffsets": "37811",
-                        "endLines": "617",
-                        "endColumns": "12",
-                        "endOffsets": "38125"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "192,193,194",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "9973,10019,10066",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "10014,10061,10112"
                     }
                 },
                 {
@@ -95,23 +59,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\src\\main\\res\\values\\dimens.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "90,149",
-                        "endColumns": "57,55",
-                        "endOffsets": "143,200"
-                    },
-                    "to": {
-                        "startLines": "333,334",
-                        "startColumns": "4,4",
-                        "startOffsets": "19440,19498",
-                        "endColumns": "57,55",
-                        "endOffsets": "19493,19549"
-                    }
-                },
-                {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\2fce33b6505fbe25b217a2e90aa898eb\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,171,172,176,177,178,6,13,56,88,125",
@@ -128,25 +75,6 @@
                         "endLines": "236,237,338,339,340,341,342,343,344,452,453,454,455,456,457,458,459,460,461,462,463,464,465,466,475,476,484,485,497,498,499,500,501,505,527,599,2294,2298,2299,2303,2304,2666,2667,3734,3934,3966,4004,4011",
                         "endColumns": "68,62,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66,24,24,24,24,24",
                         "endOffsets": "12849,12912,19789,19857,19929,19999,20060,20134,20207,27092,27153,27215,27279,27341,27402,27470,27570,27630,27696,27769,27838,27895,27947,28009,28534,28610,28990,29025,29615,29676,29733,29767,29802,29980,31261,36940,150101,150302,150412,150613,150742,175020,175087,236295,254543,256608,258570,258947"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\CGM\\Minimo2DSA_CGM\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "20,22,21,11,12,1,16,15,13,14,3,4,6,17,9,10,7,2,5",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1083,1180,1132,517,581,17,878,797,639,718,110,167,259,951,404,452,306,70,208",
-                        "endLines": "20,22,21,11,12,1,16,15,13,14,3,4,6,19,9,10,7,2,5",
-                        "endColumns": "47,47,46,62,56,51,71,79,77,77,55,39,45,13,46,63,57,38,49",
-                        "endOffsets": "1126,1223,1174,575,633,64,945,872,712,791,161,202,300,1077,446,511,359,104,253"
-                    },
-                    "to": {
-                        "startLines": "528,529,530,570,571,572,577,578,579,580,583,585,587,593,596,597,600,601,602",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "31266,31314,31362,34167,34230,34287,34796,34868,34948,35026,35408,35612,35733,36581,36710,36757,36945,37003,37042",
-                        "endLines": "528,529,530,570,571,572,577,578,579,580,583,585,587,595,596,597,600,601,602",
-                        "endColumns": "47,47,46,62,56,51,71,79,77,77,55,39,45,13,46,63,57,38,49",
-                        "endOffsets": "31309,31357,31404,34225,34282,34334,34863,34943,35021,35099,35459,35647,35774,36705,36752,36816,36998,37037,37087"
                     }
                 },
                 {
@@ -169,6 +97,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\Definitivo\\Minimo2DSA_CGM_21\\app\\src\\main\\res\\values\\colors.xml",
+                    "from": {
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
+                    },
+                    "to": {
+                        "startLines": "192,193,194",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "9973,10019,10066",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "10014,10061,10112"
+                    }
+                },
+                {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-1\\files-1.1\\recyclerview-v7-28.0.0.aar\\af569a2182cc88fa2ac2e5ee7bfed316\\res\\values\\values.xml",
                     "from": {
                         "startLines": "30,31,32,33,34,35,36,2",
@@ -185,6 +130,23 @@
                         "endLines": "391,392,393,401,402,403,483,4297",
                         "endColumns": "58,47,55,74,75,71,65,24",
                         "endOffsets": "23243,23291,23347,24033,24109,24181,28955,275297"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\Definitivo\\Minimo2DSA_CGM_21\\app\\src\\main\\res\\values\\dimens.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "90,149",
+                        "endColumns": "57,55",
+                        "endOffsets": "143,200"
+                    },
+                    "to": {
+                        "startLines": "333,334",
+                        "startColumns": "4,4",
+                        "startOffsets": "19440,19498",
+                        "endColumns": "57,55",
+                        "endOffsets": "19493,19549"
                     }
                 },
                 {
@@ -207,6 +169,25 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\Definitivo\\Minimo2DSA_CGM_21\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "20,22,21,11,12,1,16,15,13,14,3,4,6,17,9,10,7,2,5",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1083,1180,1132,517,581,17,878,797,639,718,110,167,259,951,404,452,306,70,208",
+                        "endLines": "20,22,21,11,12,1,16,15,13,14,3,4,6,19,9,10,7,2,5",
+                        "endColumns": "47,47,46,62,56,51,71,79,77,77,55,39,45,13,46,63,57,38,49",
+                        "endOffsets": "1126,1223,1174,575,633,64,945,872,712,791,161,202,300,1077,446,511,359,104,253"
+                    },
+                    "to": {
+                        "startLines": "528,529,530,570,571,572,577,578,579,580,583,585,587,593,596,597,600,601,602",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "31266,31314,31362,34167,34230,34287,34796,34868,34948,35026,35408,35612,35733,36581,36710,36757,36945,37003,37042",
+                        "endLines": "528,529,530,570,571,572,577,578,579,580,583,585,587,595,596,597,600,601,602",
+                        "endColumns": "47,47,46,62,56,51,71,79,77,77,55,39,45,13,46,63,57,38,49",
+                        "endOffsets": "31309,31357,31404,34225,34282,34334,34863,34943,35021,35099,35459,35647,35774,36705,36752,36816,36998,37037,37087"
+                    }
+                },
+                {
                     "source": "C:\\Users\\carlo\\.gradle\\caches\\transforms-1\\files-1.1\\coordinatorlayout-28.0.0.aar\\0ec184f58c04ac65079bafaa12742d99\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,102,3,13",
@@ -223,6 +204,25 @@
                         "endLines": "24,2944,3773,3862",
                         "endColumns": "60,12,24,24",
                         "endOffsets": "1257,191916,244267,249478"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\carlo\\Documents\\UPC Castefa\\UPC Castefa\\3\\DSA\\Definitivo\\Minimo2DSA_CGM_21\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "57",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "376"
+                    },
+                    "to": {
+                        "startLines": "612",
+                        "startColumns": "4",
+                        "startOffsets": "37811",
+                        "endLines": "617",
+                        "endColumns": "12",
+                        "endOffsets": "38125"
                     }
                 }
             ]

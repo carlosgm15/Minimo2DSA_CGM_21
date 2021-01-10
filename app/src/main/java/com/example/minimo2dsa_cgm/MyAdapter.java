@@ -67,7 +67,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
         final Follower follower = values.get(position);
-        holder.txtHeader.setText(String.valueOf(follower.getLogin()));
+        holder.txtHeader.setText(follower.getLogin());
         Picasso.get().load(follower.getAvatar_url()).into(holder.txtFooter);
     }
 
