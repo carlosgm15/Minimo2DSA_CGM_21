@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Minimo2DSA_CGM</string>
     <string name="user">USER:</string>
-    <string name="followers">EXPLORE FOLLOWERS</string>
+    <string name="followers">Send</string>
     <string name="login">LOGIN</string>
     <string name="usernametext">USERNAME</string>
     <string name="password">PASSWORD</string>

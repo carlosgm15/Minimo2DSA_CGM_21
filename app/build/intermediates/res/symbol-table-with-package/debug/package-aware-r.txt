@@ -1029,7 +1029,6 @@ id ALT
 id CTRL
 id FUNCTION
 id META
-id Repos_text
 id SHIFT
 id SYM
 id action_bar
@@ -1088,9 +1087,6 @@ id dimensions
 id direct
 id disableHome
 id edit_query
-id email
-id email_login_form
-id email_sign_in_button
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1101,7 +1097,6 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
-id firstLine
 id fixed
 id followers_text
 id following_text
@@ -1116,7 +1111,6 @@ id icon
 id icon_group
 id ifRoom
 id image
-id imageView
 id imageView3
 id info
 id invisible
@@ -1125,13 +1119,11 @@ id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
 id left
+id lenguaje
 id line1
 id line3
 id listMode
 id list_item
-id login_form
-id login_progress
-id logind
 id masked
 id message
 id middle
@@ -1144,6 +1136,8 @@ id my_recycler_view
 id name
 id navigation_header_container
 id never
+id nombre_repo
+id nombre_text
 id none
 id normal
 id notification_background
@@ -1155,14 +1149,13 @@ id parallax
 id parent
 id parentPanel
 id parent_matrix
-id password
-id passwordtext
 id percent
 id pin
 id progressBar
 id progress_circular
 id progress_horizontal
 id radio
+id repos_text
 id right
 id right_icon
 id right_side
@@ -1185,7 +1178,7 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id see_followers
+id see_info
 id select_dialog_listview
 id selected
 id shortcut
@@ -1219,6 +1212,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView2
+id textView3
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1239,9 +1234,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id userText
-id username
-id usernametext
 id view_offset_helper
 id visible
 id withText
@@ -1294,7 +1286,6 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_login2
 layout activity_main
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -1311,7 +1302,6 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
 layout infouseractivity
-layout loginactivity
 layout mtrl_layout_snackbar
 layout mtrl_layout_snackbar_include
 layout notification_action

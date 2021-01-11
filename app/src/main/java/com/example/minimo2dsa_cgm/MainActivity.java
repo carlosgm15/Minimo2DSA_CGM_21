@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
     EditText name;
     Button explore;
-    List<Follower> listDatos = new ArrayList<>();
+    List<Repos> listDatos = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         name = findViewById(R.id.name);
-        explore = findViewById(R.id.see_followers);
+        explore = findViewById(R.id.see_info);
 
 
         explore.setOnClickListener(new View.OnClickListener() {

@@ -10,7 +10,7 @@ public interface API {
     @GET("users/{Username}")
     Call<User> userInfo (@Path("Username") String username);
 
-    @GET("users/{Username}/followers")//trae la info de los followers
-    Call<List<Follower>> followersInfo (@Path("Username") String username); //devuelve un response del server, una lista con los datos de los followers
+    @GET("users/{Username}/repos")//trae la info de los followers
+    Call<List<Repos>> followersInfo (@Path("Username") String username); //devuelve un response del server, una lista con los datos de los followers
 
 }

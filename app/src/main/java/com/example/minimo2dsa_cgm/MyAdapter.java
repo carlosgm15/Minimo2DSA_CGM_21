@@ -5,21 +5,18 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
 public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
-    private List<Follower> values; //recibira una lista para poder mostrarla (creamos la referencia)
+    private List<Repos> values; //recibira una lista para poder mostrarla (creamos la referencia)
 
     Activity activity;
 
     // construcotr de la lista para tener referencia
-    public MyAdapter(List<Follower> myDataset, Activity activity) {
+    public MyAdapter(List<Repos> myDataset, Activity activity) {
 
         this.values = myDataset;
         this.activity=activity;
@@ -27,29 +24,17 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
     public class ViewHolder extends RecyclerView.ViewHolder {
         // each data item is just a string in this case
-        public TextView txtHeader;
-        public ImageView txtFooter;
+        public TextView nombre_repo;
+        public TextView lenguaje;
         public View layout;
 
         public ViewHolder(View v) {
             super(v);
             layout = v;
-            txtHeader =  v.findViewById(R.id.firstLine); //referencias
-            txtFooter =  v.findViewById(R.id.imageView);
+            nombre_repo=  v.findViewById(R.id.nombre_repo); //referencias
+            lenguaje =  v.findViewById(R.id.lenguaje);
         }
     }
-
-
-
-    public void add(int position, Follower item) {
-        values.add(position, item);
-        notifyItemInserted(position);
-    }
-    public void remove(int position) {
-        values.remove(position);
-        notifyItemRemoved(position);
-    }
-
 
     // Create new views (invoked by the layout manager)
     @Override
@@ -66,9 +51,10 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     public void onBindViewHolder(final ViewHolder holder, final int position) {
         // - get element from your dataset at this position
         // - replace the contents of the view with that element
-        final Follower follower = values.get(position);
-        holder.txtHeader.setText(follower.getLogin());
-        Picasso.get().load(follower.getAvatar_url()).into(holder.txtFooter);
+        final Repos repos = values.get(position);
+        holder.lenguaje.setText((repos.getLanguage()));
+        holder.nombre_repo.setText(repos.getName());
+
     }
 
     // Return the size of your dataset (invoked by the layout manager)

@@ -16,7 +16,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name="com.example.minimo2dsa_cgm.MainActivity"></activity>
-        <activity android:name="com.example.minimo2dsa_cgm.LoginActivity"></activity>
         <activity android:name="com.example.minimo2dsa_cgm.InfoUserActivity"></activity>
 
         <activity

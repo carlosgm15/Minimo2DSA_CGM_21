@@ -25,7 +25,6 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.minimo2dsa_cgm.MainActivity" />
-        <activity android:name="com.example.minimo2dsa_cgm.LoginActivity" />
         <activity android:name="com.example.minimo2dsa_cgm.InfoUserActivity" />
         <activity
             android:name="com.example.minimo2dsa_cgm.SplashActivity"
